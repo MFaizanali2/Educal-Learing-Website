@@ -3,6 +3,7 @@ import Banner from "../components/Banner/Banner";
 import Course from "../components/Course/Course";
 import Design from "../components/Design/Design";
 import Detail from "../components/Detail/Detail";
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import Proud from "../components/Proud/Proud";
 import Skill from "../components/Skill/Skill";
@@ -37,6 +38,8 @@ const Home = () => {
           "you don't have to struggle alone, you've got our assistance and help."
         }</h6>
         <Design />
+
+        <Footer />
       </div>
 
     </div>
