@@ -12,13 +12,13 @@ button{
 }
 
 .courses h2{
-    font-size: 40px;
+    font-size: 3vw;
     padding: 10px 0;
 }
 
 .courses h6{
     font-weight: 500;
-    font-family: 22px;
+    font-size: 1.3vw;
     color: gray;
 }
 
@@ -30,12 +30,56 @@ button{
 }
 
 .skills h1{
-    font-size: 40px;
-    padding: 10px 0;
+    font-size: 3vw;
+    padding: 0.7vw 0;
 }
 
 .skills h6{
     font-weight: 500;
-    font-family: 22px;
+    font-size: 1.2vw;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.proud{
+    background-color: #fff;
+    color: #333;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.proud h1{
+    font-size: 3vw;
+    padding: 10px 0;
+}
+
+.proud h6{
+    font-weight: 400;
+    font-size: 1.3vw;
+    color: #000;
+}
+
+.proud-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.design{
+    background-color: hsla(0, 11%, 86%, 0.521);
+    color: #333;
+    padding: 4vw 3vw;
+    text-align: center;
+}
+
+.design h2{
+    font-size: 3vw;
+    padding: 10px 0;
+}
+
+.design h6{
+    font-weight: 500;
+    font-size: 1.2vw;
     color: gray;
 }

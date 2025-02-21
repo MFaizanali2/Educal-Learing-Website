@@ -14,7 +14,7 @@
   }
   
   .navbar.scrolled {
-    background: rgba(231, 226, 226, 0.8);
+    background: #000(231, 226, 226, 0.8);
     padding: 8px 10px;
   }
   
@@ -48,7 +48,6 @@
     cursor: pointer;
   }
   
-  /* Navigation Links */
   .nav-links {
     list-style: none;
     display: flex;

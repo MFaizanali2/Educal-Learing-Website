@@ -1,0 +1,52 @@
+.proud-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: auto;
+    padding: 20px;
+    /* background: #38d16a; */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.proud-content {
+    max-width: 1200px;
+    width: 100%;
+    color: #000;
+    padding: 30px 40px;
+    /* text-align: center; */
+}
+
+.proud-content h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.proud-content h6{
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .proud-content {
+        padding: 20px;
+    }
+
+    .proud-content h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .proud-content {
+        padding: 15px;
+    }
+
+    .proud-content h1 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,96 @@
+.design-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .design-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .design-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .design-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .design-tags {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 10px;
+  }
+  
+  .tag {
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .design-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .lessons, .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .star-icon {
+    color: gold;
+  }
+  
+  .design-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  
+  .instructor {
+    padding: 10px;
+  }
+  
+  .instructor-name {
+    font-weight: bold;
+  }
+  
+  .design-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .price {
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .details-link {
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .details-link:hover {
+    color: #000;
+  }
+  
