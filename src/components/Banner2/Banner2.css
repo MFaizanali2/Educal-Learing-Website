@@ -1,0 +1,68 @@
+.banner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw;
+    margin: 3vw 1vw;
+    background: linear-gradient(to right, #234ef0, #ff754a);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner2-content {
+    max-width: 900px;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .banner2 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .btn i {
+    font-size: 1.2rem;
+  }
+  
+  .btn-outlined {
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+  }
+  
+  .btn-outlined:hover {
+    background: white;
+    color: #234ef0;
+  }
+  
+  .btn-filled {
+    background: white;
+    color: #234ef0;
+  }
+  
+  .btn-filled:hover {
+    background: #ff754a;
+    color: white;
+  }
+  

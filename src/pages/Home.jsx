@@ -1,5 +1,6 @@
 import About from "../components/About/About";
 import Banner from "../components/Banner/Banner";
+import Banner2 from "../components/Banner2/Banner2";
 import Course from "../components/Course/Course";
 import Design from "../components/Design/Design";
 import Detail from "../components/Detail/Detail";
@@ -39,7 +40,9 @@ const Home = () => {
         }</h6>
         <Design />
 
+        <Banner2 />
         <Footer />
+
       </div>
 
     </div>
