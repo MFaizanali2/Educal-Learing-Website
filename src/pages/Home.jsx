@@ -40,10 +40,10 @@ const Home = () => {
         }</h6>
         <Design />
 
-        <Banner2 />
-        <Footer />
-
       </div>
+
+      <Banner2 />
+      <Footer />
 
     </div>
   );

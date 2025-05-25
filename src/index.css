@@ -3,6 +3,9 @@
 button{
     cursor: pointer;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 .courses{
     background-color: hsla(0, 11%, 86%, 0.521);

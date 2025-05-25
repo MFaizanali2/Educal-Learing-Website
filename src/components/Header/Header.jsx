@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faChartBar } from "@fortawesome/free-regular-svg-icons";
 import "./Header.css";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,19 +42,22 @@ const Header = () => {
       </button>
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
         <li>
-          <a href="#">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="#">About</a>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <a href="#">Course</a>
+          <NavLink to="/course">Course</NavLink>
         </li>
         <li>
-          <a href="#">Instructor</a>
+          <NavLink to="/instruction">Instruction</NavLink>
         </li>
         <li>
-          <a href="#">Blog</a>
+          <NavLink to="/blog">Blog</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
         <div className="nav-btn">
           <FontAwesomeIcon icon={faSearch} />
